@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    position: relative;
+}
+
+/* Global css 
+
+ */
+ .cantiner{
+    margin: auto;
+    width:70%
+}
+ .link{
+    color: #0066CC;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+}
+.link span {
+    font-size: 18px;
+}
+.link i{
+    font-size: 17px;
+    margin-left: 5px;
+
+}
+.link:hover{
+    text-decoration: underline;
+}
+/* 
+
+
+    Main css
+
+*/
+
+header{
+     width: 100%;
+    height: 44px;
+    background: rgba(51, 51, 51, 0.952);
+    position: static;
+    top: 50px;
+    position: sticky;
+    top: -0px;
+    z-index: 20;
+    backdrop-filter: blur (10px);
+    
+}
+nav{
+    width: 70%;
+    margin: auto;
+    height: 100%;
+
+}
+.collection{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item{
+    color: #fffefe;
+    font-size: 12px;
+
+}
+
+.logo img{
+    width: 20px;
+}
+.holiday{
+    width: 100%;
+    height: 44px;
+    background: #E34140;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+}
+.banner_top{
+    width: 100%;
+    height: 590px;
+    background: #EEEFFE;
+}
+
+.banner_img{
+    display: block;
+    margin: auto;
+    padding: 30px;
+
+}
+.banner_top h1{
+    text-align: center;
+    padding: 16px 0;
+    font-size: 3.5rem;
+    color: #1D1D1F;
+
+}
+.bannerimg_con{
+    display: flex;
+    justify-content: center;
+}
+.banner_link{
+    display: flex;
+    justify-content: center;
+}
+.bannerimg_con{
+    margin-top: 40px;
+}
+.section{
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+.part{
+    width: 100%;
+    height:500px;
+    background: url('https://www.apple.com/v/home/ah/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_mediumtall_2x.jpg') no-repeat center/cover ;
+}
+.part_text{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+  
+}
+.part_text h1{
+    font-size: 57px;
+    padding-top: 40px;
+    color: #1D1D1F;
+
+}
+.part_text p{
+    font-size: 22px;
+    font-weight: 100;
+
+}
+.part2{
+    margin-top: 12px;
+    width: 100%;
+    height:500px;
+    background:url('https://www.apple.com/v/home/ah/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_large.jpg') no-repeat center/cover;
+}
+
+.part2_text{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+    
+.part2_text h1{
+    font-size: 47px;
+    padding-top: 40px;
+    color: #fff;
+
+}
+.part2_text h2{
+    font-size: 30px;
+    font-weight: 100;
+    color: #FEC2EB;
+
+}
+.menu{
+    margin-top: 10px;
+    width: 100%;
+    height: 580px;
+    background: #fff;
+    display: flex;
+    position: relative;
+   
+}
+.left{
+    width: 49.8%;
+    height: 100%;
+    background:#EEF0FF;
+}
+.right{
+    margin-left: 10px;
+    width: 98%;
+    height: 100%;
+    background: #FBFBFD ;
+    width: 49.8%;
+    height: 100%;
+    position: relative;
+
+}
+.left_text{
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 80px;
+}
+.left_text h1{
+    color: #1D1D1F;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+.left_img{
+    width:400px;
+    height:400px;
+    background-image: url(./img/iphone__cyamwsdph26a_large.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    position: absolute;
+    top:190px;
+    left: 120px;
+}
+
+.right_img{
+    width:750px;
+    height:1000px;
+    background-image: url(' https://www.apple.com/v/home/ah/images/promos/airpods/tile_airpods__fuv6vgn42y2q_small.jpg');
+    background-size: contain;
+    background-repeat:no-repeat ;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.right_text{
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 80px;
+    position: absolute;
+    color: greenyellow;
+    top: 330px;
+    z-index: 100px;
+   
+}
+.right_text h1{
+    color: #1D1D1F;
+    font-size: 40px;
+}
+.right_text p{
+    color: grey;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.right_text a{
+    padding-left: 20px;
+}
+
+.menu2{
+    margin-top: 10px;
+    width: 100%;
+    height: 410px;
+    background: #fff;
+    display: flex;
+    position: relative;
+}
+.left2{
+    width: 49.8%;
+    height: 100%;
+    background:#FBFBFD;
+}
+.left2_text{
+    padding-top: 60px;
+    text-align: center;
+    color: #1D1D1F;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.left2_img{
+    width: 100%;
+    height: 400px;
+    background: url('https://www.apple.com/v/home/ah/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_small.jpg') no-repeat center/cover;
+}
+.left2_text2{
+    padding-left: 20px
+}
+
+
+.right2{
+    margin-left: 10px;
+    width: 98%;
+    height: 100%;
+    background: #F5F5F7;
+    width: 49.8%;
+    height: 100%;
+    position: relative;
+}
+.right2_logo{
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    width: 150px;
+    height: 90px;
+    z-index: 10;
+    background:url('https://www.apple.com/v/home/ah/images/logos/watch-series-7/tile_watch_logo_lte__h7snssb7mqq2_small.png') no-repeat center/contain;
+}
+.right2_text{
+    width: 100%;
+    text-align: center;
+   position: absolute;
+   top: 70px;
+   left: 0px;
+   z-index: 10;
+
+}
+.right2_text a{
+    
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.right2_img{
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    background: url('https://www.apple.com/v/home/ah/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large.jpg') no-repeat center/cover;
+    position: absolute;
+    top:0px;
+    left: 10px;
+}
+.menu3{
+    margin-top: 105px;
+    width: 100%;
+    height: 600px;
+    background: #fff;
+    display: flex;
+    position: relative;
+}
+.left3{
+    width: 49.8%;
+    height: 100%;
+    background: #FBFBFD;
+    position: relative;
+}
+
+.left3_logo{
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    width: 150px;
+    height: 90px;
+    background: url(https://www.apple.com/v/home/ah/images/logos/apple-card/logo__dcojfwkzna2q_large.png)no-repeat center;
+}
+.left3_text{
+    width: 100%;
+    text-align: center;
+   position: absolute;
+   top: 120px;
+   left: 0px;
+}
+.left3_text p{ 
+    color: gray;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.left3_text a{
+    padding-left: 20px;
+}
+.left3_img{
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    background: url(https://www.apple.com/v/home/ah/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg) no-repeat center/cover;
+}
+
+.right3{
+    margin-left: 10px;
+    width: 98%;
+    height: 100%;
+    background:url('https://www.apple.com/v/home/ah/images/promos/tv-plus-charlie-brown-thanksgiving/promo_charlie__fm6z3ta4w72a_small.jpg') no-repeat center/cover ;
+    width: 49.8%;
+    height: 100%;
+    position: relative;
+}
+.right3_logo{
+    width: 40%;
+    height: 30px;
+    background: url('https://www.apple.com/v/home/ah/images/logos/tv-plus/logo__dcojfwkzna2q_large.png') no-repeat center/contain;
+    margin: auto;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+}
+.right3_logo3{
+    width: 100%;
+    height: 70px;
+    background: url('https://www.apple.com/v/home/ah/images/logos/tv-plus-charlie-brown-thanksgiving/logo_charlie_title__fhiai70pbwq6_small.png') no-repeat center/contain;
+    margin: auto;
+    position: absolute;
+    top: 400px;
+
+}
+.right3_text{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    position: relative;
+    top: 490px;
+    z-index: 10;
+}
+.right_link{
+    display: flex;
+    padding-left: 270px;
+    padding-top: 20px;
+    color: gray;
+    
+}
+.right_link a{
+    text-decoration: none;
+    color: gray;
+}
+.right_link:hover{
+    color: rgb(73, 71, 71);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.footer{
+    width: 100%;
+    height: 600px;
+
+}
+.footer_text{
+    margin: auto;
+    width: 70%;
+    height: auto;
+    font-size:12px;
+    color: gray;
+    line-height: 1.6;
+}
+.footer_text a{
+    color: gray;
+}
+
+.footer{
+    margin-top: 20px;
+}
